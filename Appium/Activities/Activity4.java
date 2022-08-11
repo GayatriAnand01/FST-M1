@@ -47,9 +47,9 @@ public class Activity4 {
 		    
 		    
 		    // Enter the FirstName, LastName and Phone Number
-		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"First name\")")).sendKeys("Gaurav");
-		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"Last name\")")).sendKeys("Kumar");
-		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"Phone\")")).sendKeys("9818064162");
+		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"First name\")")).sendKeys("Aaditya");
+		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"Last name\")")).sendKeys("Varma");
+		    driver.findElement(MobileBy.AndroidUIAutomator("text(\"Phone\")")).sendKeys("999148292");
 		    
 		    
 	        //Click on Save Button
@@ -60,7 +60,7 @@ public class Activity4 {
 	        String contactName = driver.findElementById("large_title").getText();
 	        
 	        // Assertion
-	        Assert.assertEquals(contactName, "Gaurav Kumar");
+	        Assert.assertEquals(contactName, "Aaditya Varma");
 	        
 	    }
 	    
